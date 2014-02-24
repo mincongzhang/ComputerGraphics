@@ -1,1 +1,1 @@
-This is my practice on OpenGL
+This is my practices on OpenGL
