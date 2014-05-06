@@ -1,0 +1,25 @@
+ FILE *ifp;
+  int i, j;
+  GLint numpolys, numLines, x, y;
+
+  ifp = fopen (filename, "r");
+  if(ifp==NULL) {
+    printf("Error: can't open file for reading.\n");
+    return;
+  }
+
+  glClear(GL_COLOR_BUFFER_BIT); 
+
+  fscanf (ifp, "%d", &numpolys);
+
+  for (j=0; j < numpolys; j++) {
+	fscanf (ifp, "%d", &numLines);
+	glBegin (GL_LINE_STRIP);
+	for (i = 0; i < numLines; i++) {
+		fscanf (ifp, "%d %d", &x, &y);
+		glVertex2i (x, y);
+	}
+	glEnd();
+  }
+  glFlush();
+  fclose (ifp);
