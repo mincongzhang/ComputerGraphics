@@ -11,10 +11,10 @@
 
 ### Clipping
 <a style="float:left;">
-    <img src="https://github.com/mincongzhang/ComputerGraphics/raw/master/4boundaries.bmp" height="200"/>
+    <img src="https://github.com/mincongzhang/ComputerGraphics/raw/master/4boundaries.bmp" height="400"/>
 </a>
     <a style="float:left;">
-    <img src="https://github.com/mincongzhang/ComputerGraphics/raw/master/5boundaries.bmp"  height="200"/>
+    <img src="https://github.com/mincongzhang/ComputerGraphics/raw/master/5boundaries.bmp"  height="400"/>
 </a>
 
 
